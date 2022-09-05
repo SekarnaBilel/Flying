@@ -1,0 +1,92 @@
+@media only screen and (min-width:600px)  {
+.header nav {
+    /* position: absolute; */
+    /* top: 16px; */
+    /* left: 16px; */
+    /* font-size: 1.3rem; */
+    margin: 0px 0px 5px
+}
+.header h1 {
+    font-size: 1.7rem;
+    text-shadow: 2px 3px 0px #546fe4;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+.header nav ul {
+    display: flex;
+    gap: 1rem;
+}
+.header nav ul a {
+    list-style: none;
+    text-decoration: none;
+    border-radius: 3px;
+    width: 140px;
+    padding: 7px;
+    text-align: center;
+    /* margin-right: 5px; */
+}
+.header nav ul a.nav-active {
+    background: #546fe4;
+
+}
+
+.header nav ul a:visited {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+}
+
+@media only screen and (max-width:600px)  {
+    .header nav ul a {
+        width: 50px;
+        height: 30px;
+        padding: 2px;
+        list-style: none;
+        text-decoration: none;
+        border-radius: 3px;
+        text-align: center;
+
+    }
+    .header h1 {
+        font-size: 1.5rem;
+        text-align:start;
+        padding-left: 30px;   
+        text-shadow: 2px 3px 0px #546fe4;
+        letter-spacing: 2px;
+        color: white;     
+    }
+    .header nav ul {
+        display: flex;
+        gap: 3rem;
+    }
+    .header nav ul a.nav-active {
+        background: #546fe4;
+        width: 130px;
+    
+    }
+    .header nav ul a:visited {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        width: 130px;
+    }
+
+    .header li{
+        width: 130px;
+
+    }
+}
+
+@media only screen and (max-width:410px)  {
+.header h1 {
+    font-size: 1.3rem;
+    text-shadow: 2px 3px 0px #546fe4;
+    text-align: start;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+}
